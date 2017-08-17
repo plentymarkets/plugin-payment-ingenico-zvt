@@ -3,15 +3,18 @@
 namespace IngenicoZvt\Providers;
 
 
-use Illuminate\Routing\Router;
+use Plenty\Plugin\Routing\Router;
 use Plenty\Plugin\RouteServiceProvider;
 
 class IngenicoZvtRouteServiceProvider extends RouteServiceProvider
 {
+	/**
+	 * @param Router $router
+	 */
 	public function map(Router $router)
 	{
-		$router->get('ingenicoZvt/configuration', [
-			'middleware' => 'oauth',
+		$router->get('ingenicozvt/configuration', [
+			//'middleware' => 'oauth',
 			'uses' => 'IngenicoZvt\Controllers\SettingsController@configuration'
 		]);
 	}

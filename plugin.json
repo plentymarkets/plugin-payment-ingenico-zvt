@@ -1,5 +1,5 @@
 {
-  "name"              : "Ingenico (ZVT)",
+  "name"              : "Ingenico",
   "namespace"         : "IngenicoZvt",
   "type"              : "payment",
   "version"           : "1.0.0",

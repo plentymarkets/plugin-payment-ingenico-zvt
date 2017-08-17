@@ -11,10 +11,12 @@ use Plenty\Plugin\Http\Request;
 
 class SettingsController extends Controller
 {
-    public function configuration(Request $request)
+	/**
+	 * @param Request $request
+	 * @return array
+	 */
+    public function configuration(Request $request, ConfigRepository $configRepository)
 	{
-		$configRepository = pluginApp(ConfigRepository::class);
-		
 		$response['merchant_identifier'] = $configRepository->get(IngenicoZvtHelper::getMerchantIdentifierKey());
 		$response['merchant_secret_key'] = $configRepository->get(IngenicoZvtHelper::getMerchantSecretKey());
 		$response['channelId'] = $configRepository->get(IngenicoZvtHelper::getChannelId());
@@ -24,10 +26,10 @@ class SettingsController extends Controller
 		 */
 		$mopRepository = pluginApp(PaymentMethodRepositoryContract::class);
 		
-		$mopModels = $mopRepository->allForPlugin(IngenicoZvtHelper::PLUGIN_KEY);
+		$mopModels = $mopRepository->allForPlugin(IngenicoZvtHelper::PLUGIN_NAME);
 		foreach ($mopModels as $mopModel)
 		{
-			$response['methodOfPayment'][] = $mopModel->toArray();
+			$response['methodOfPayments'][] = $mopModel->toArray();
 		}
 		
 		return $response;

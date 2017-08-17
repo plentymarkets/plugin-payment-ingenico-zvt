@@ -7,9 +7,7 @@ use Plenty\Modules\Payment\Method\Contracts\PaymentMethodRepositoryContract;
 
 class IngenicoZvtHelper
 {
-	const PLUGIN_NAME = 'Ingenico (ZVT)';
-	
-	const PLUGIN_KEY = 'plenty_ingenico_zvt';
+	const PLUGIN_NAME = 'Ingenico';
 	
 	const NO_PAYMENTMETHOD_FOUND = 'no_paymentmethod_found';
 	
@@ -31,7 +29,7 @@ class IngenicoZvtHelper
 			if ($this->getPaymentMethod($paymentKey) == self::NO_PAYMENTMETHOD_FOUND)
 			{
 				$paymentMethodData = array(
-					'pluginKey' => self::PLUGIN_KEY,
+					'pluginKey' => self::PLUGIN_NAME,
 					'paymentKey' => $paymentKey,
 					'name' => $paymentName
 				);
@@ -43,7 +41,7 @@ class IngenicoZvtHelper
 	
 	private function getPaymentMethod($method)
 	{
-		$paymentMethods = $this->paymentMethodRepository->allForPlugin(self::PLUGIN_KEY);
+		$paymentMethods = $this->paymentMethodRepository->allForPlugin(self::PLUGIN_NAME);
 		
 		if(!is_null($paymentMethods))
 		{
@@ -55,20 +53,22 @@ class IngenicoZvtHelper
 				}
 			}
 		}
+		
+		return self::NO_PAYMENTMETHOD_FOUND;
 	}
 	
 	public static function getMerchantIdentifierKey()
 	{
-		return self::PLUGIN_KEY.'.merchant_identifier';
+		return self::PLUGIN_NAME.'.merchant_identifier';
 	}
 	
 	public static function getMerchantSecretKey()
 	{
-		return self::PLUGIN_KEY.'.merchant_secret_key';
+		return self::PLUGIN_NAME.'.merchant_secret_key';
 	}
 	
 	public static function getChannelId()
 	{
-		return self::PLUGIN_KEY.'.channel_id';
+		return self::PLUGIN_NAME.'.channel_id';
 	}
 }
