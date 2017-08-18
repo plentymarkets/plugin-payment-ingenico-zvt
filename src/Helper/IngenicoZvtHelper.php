@@ -7,7 +7,7 @@ use Plenty\Modules\Payment\Method\Contracts\PaymentMethodRepositoryContract;
 
 class IngenicoZvtHelper
 {
-	const PLUGIN_NAME = 'Ingenico';
+	const PLUGIN_NAME = 'IngenicoZVT';
 	
 	const NO_PAYMENTMETHOD_FOUND = 'no_paymentmethod_found';
 	

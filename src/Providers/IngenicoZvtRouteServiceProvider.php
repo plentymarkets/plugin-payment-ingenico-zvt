@@ -14,7 +14,7 @@ class IngenicoZvtRouteServiceProvider extends RouteServiceProvider
 	public function map(Router $router)
 	{
 		$router->get('ingenicozvt/configuration', [
-			//'middleware' => 'oauth',
+			'middleware' => 'oauth',
 			'uses' => 'IngenicoZvt\Controllers\SettingsController@configuration'
 		]);
 	}
