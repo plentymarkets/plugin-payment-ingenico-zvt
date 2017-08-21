@@ -31,6 +31,21 @@ class IngenicoZvtHelper
 		'AMERICAN-EXPRESS' => 'IngenicoZVT American Express'
 		];
 	
+	public static $cardTypeIds = [
+		'UNKOWN' => '0',
+		'GIROCARD' => '5',
+		'ELECTRONIC-CASH' => '2',
+		'MAESTRO' => '46',
+		'VPAY' => '13',
+		'GELDKArte-GIROGO' => '30',
+		'MASTERCARD' => '6',
+		'MASTERCARD_COMMON_DEBIT' => '6',
+		'VISA' => '11',
+		'VISA_ELECTRON' => '11',
+		'VISA_COMMON_DEBIT' => '11',
+		'AMERICAN-EXPRESS' => '8'
+	];
+	
 	public function __construct(PaymentMethodRepositoryContract $paymentMethodRepositoryContract)
 	{
 		$this->paymentMethodRepository = $paymentMethodRepositoryContract;
@@ -49,6 +64,17 @@ class IngenicoZvtHelper
 				);
 				
 				$this->paymentMethodRepository->createPaymentMethod($paymentMethodData);
+			}
+		}
+	}
+	
+	public static function getCardIdForPaymentKey($paymentKeyToSearch)
+	{
+		foreach (IngenicoZvtHelper::$cardTypeIds as $paymentKey => $cardTypeId)
+		{
+			if ($paymentKey == $paymentKeyToSearch)
+			{
+				return $cardTypeId;
 			}
 		}
 	}

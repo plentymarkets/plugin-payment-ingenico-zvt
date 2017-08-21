@@ -34,6 +34,12 @@ class SettingsController extends Controller
 			$response['methodsOfPayment'][] = $mopModel->toArray();
 		}
 		
+		for($i = 0; $i < count($response['methodsOfPayment']); $i++)
+		{
+			$paymentKey = $response['methodsOfPayment'][$i]['paymentKey'];
+			$response['methodsOfPayment'][$i]['cardTypeId'] = IngenicoZvtHelper::getCardIdForPaymentKey($paymentKey);
+		}
+		
 		return $response;
 	}
 }
