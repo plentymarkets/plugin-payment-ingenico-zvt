@@ -1,5 +1,7 @@
 <?php
-
+/**
+ * author: ninoplettenberg
+ */
 namespace IngenicoZvt\Helper;
 
 
@@ -14,7 +16,18 @@ class IngenicoZvtHelper
 	private $paymentMethodRepository;
 	
 	public static $paymentMethods = [
-		'UNKOWN' => 'IngenicoZVT Unknown'
+		'UNKOWN' => 'IngenicoZVT Unknown',
+		'GIROCARD' => 'IngenicoZVT girocard',
+		'ELECTRONIC-CASH' => 'IngenicoZVT Electronic-Cash',
+		'MAESTRO' => 'IngenicoZVT Maestro',
+		'VPAY' => 'IngenicoZVT VPAY',
+		'GELDKArte-GIROGO' => 'IngenicoZVT GeldKarte/Girogo',
+		'MASTERCARD' => 'IngenicoZVT Mastercard',
+		'MASTERCARD_COMMON_DEBIT' => 'IngenicoZVT Mastercard Common Debit',
+		'VISA' => 'IngenicoZVT Visa',
+		'VISA_ELECTRON' => 'IngenicoZVT Visa Electron',
+		'VISA_COMMON_DEBIT' => 'IngenicoZVT Visa Common Debit',
+		'AMERICAN-EXPRESS' => 'IngenicoZVT American Express'
 		];
 	
 	public function __construct(PaymentMethodRepositoryContract $paymentMethodRepositoryContract)
