@@ -45,7 +45,17 @@ class IngenicoZvtPaymentMethod extends PaymentMethodService
 	
 	private function isPluginConfigValid():boolean
 	{
-		if (!StringHelper::isNullOrEmpty($this->getMerchantIdentifierKeyValue()) && !StringHelper::isNullOrEmpty($this->getMerchantSecretKeyValue())) //TODO
+		if ($this->allConfigParamsSet())
+		{
+			return true;
+		}
+		return false;
+	}
+	
+	private function allConfigParamsSet() : boolean
+	{
+		if(!StringHelper::isNullOrEmpty($this->getMerchantIdentifierKeyValue())
+			&& !StringHelper::isNullOrEmpty($this->getMerchantSecretKeyValue())) //TODO
 		{
 			return true;
 		}

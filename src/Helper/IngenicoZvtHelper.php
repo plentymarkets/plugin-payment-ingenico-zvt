@@ -15,6 +15,7 @@ class IngenicoZvtHelper
 	
 	private $paymentMethodRepository;
 	
+	//TODO Add Card Type ID's?
 	public static $paymentMethods = [
 		'UNKOWN' => 'IngenicoZVT Unknown',
 		'GIROCARD' => 'IngenicoZVT girocard',

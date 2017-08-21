@@ -31,7 +31,7 @@ class SettingsController extends Controller
 		$mopModels = $mopRepository->allForPlugin(IngenicoZvtHelper::PLUGIN_NAME);
 		foreach ($mopModels as $mopModel)
 		{
-			$response['methodOfPayments'][] = $mopModel->toArray();
+			$response['methodsOfPayment'][] = $mopModel->toArray();
 		}
 		
 		return $response;
