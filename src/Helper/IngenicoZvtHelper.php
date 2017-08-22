@@ -68,13 +68,13 @@ class IngenicoZvtHelper
 		}
 	}
 	
-	public static function getCardIdForPaymentKey($paymentKeyToSearch)
+	public static function getCardIdForPaymentKey($paymentKeyToSearch) : int
 	{
 		foreach (IngenicoZvtHelper::$cardTypeIds as $paymentKey => $cardTypeId)
 		{
 			if ($paymentKey == $paymentKeyToSearch)
 			{
-				return $cardTypeId;
+				return (int) $cardTypeId;
 			}
 		}
 	}
