@@ -11,7 +11,7 @@
   "categories"        : [],
   "keywords"          : ["Ingenico", "zvt", "official", "plentymarkets", "payment"],
   "author"            : "plentymarkets GmbH",
-  "authorIcon"        : "",
+  "authorIcon"        : "icon_author_xs.png",
   "email"             : "payment@plentymarkets.eu",
   "phone"             : "",
   "serviceProvider"   : "IngenicoZvt\\Providers\\IngenicoZvtServiceProvider"
