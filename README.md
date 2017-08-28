@@ -2,12 +2,7 @@
 
 # Ingenico ZVT plugin for plentymarkets 7.x
 
-This is the official **Payworks Miura** plugin developed by plentymarkets. It integrates the payment method **Payworks Miura** to use the Miura payment terminal that is part of the plentyPOS hardware bundle.
-
-## Requirements
-
-You need a Miura POS terminal and a plentyPOS contract to use this payment method. 
-
+This is the official **Ingenico (ZVT)** plugin developed by plentymarkets. It integrates the payment method **Ingenico (ZVT)** to use an Ingenico payment terminal.
 
 ## Plugin documentation
 
