@@ -15,7 +15,7 @@ class IngenicoZvtHelper
 	
 	private $paymentMethodRepository;
 	
-	//TODO Add Card Type ID's?
+	//TODO more clearing types needed?
 	public static $paymentMethods = [
 		'UNKOWN' => 'IngenicoZVT Unknown',
 		'GIROCARD' => 'IngenicoZVT girocard',
@@ -31,6 +31,7 @@ class IngenicoZvtHelper
 		'AMERICAN-EXPRESS' => 'IngenicoZVT American Express'
 		];
 	
+	//TODO update if more clearing types added
 	public static $cardTypeIds = [
 		'UNKOWN' => '0',
 		'GIROCARD' => '5',
@@ -95,20 +96,5 @@ class IngenicoZvtHelper
 		}
 		
 		return self::NO_PAYMENTMETHOD_FOUND;
-	}
-	
-	public static function getMerchantIdentifierKey()
-	{
-		return self::PLUGIN_NAME.'.merchant_identifier';
-	}
-	
-	public static function getMerchantSecretKey()
-	{
-		return self::PLUGIN_NAME.'.merchant_secret_key';
-	}
-	
-	public static function getChannelId()
-	{
-		return self::PLUGIN_NAME.'.channel_id';
 	}
 }

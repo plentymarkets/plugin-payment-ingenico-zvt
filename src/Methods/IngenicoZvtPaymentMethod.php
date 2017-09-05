@@ -19,46 +19,14 @@ class IngenicoZvtPaymentMethod extends PaymentMethodService
 		$this->configRepository = $configRepository;
 	}
 	
+	//TODO needed?
 	public function isActive():bool
 	{
-		if($this->isPluginConfigValid())
-		{
-			return true;
-		}
-		return false;
+		return true;
 	}
 	
 	public function getName():string
 	{
 		return IngenicoZvtHelper::PLUGIN_NAME;
-	}
-	
-	private function getMerchantIdentifierKeyValue() : string
-	{
-		return trim($this->configRepository->get(IngenicoZvtHelper::getMerchantIdentifierKey()));
-	}
-	
-	private function getMerchantSecretKeyValue() : string
-	{
-		return trim($this->configRepository->get(IngenicoZvtHelper::getMerchantSecretKey()));
-	}
-	
-	private function isPluginConfigValid():boolean
-	{
-		if ($this->allConfigParamsSet())
-		{
-			return true;
-		}
-		return false;
-	}
-	
-	private function allConfigParamsSet() : boolean
-	{
-		if(!StringHelper::isNullOrEmpty($this->getMerchantIdentifierKeyValue())
-			&& !StringHelper::isNullOrEmpty($this->getMerchantSecretKeyValue())) //TODO
-		{
-			return true;
-		}
-		return false;
 	}
 }

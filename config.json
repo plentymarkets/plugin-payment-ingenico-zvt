@@ -1,23 +1,2 @@
 [
-  {
-    "tab": "Einstellung",
-    "key": "merchant_identifier",
-    "label": "Merchant Identifier",
-    "type": "text",
-    "default": ""
-  },
-  {
-    "tab": "Einstellung",
-    "key": "merchant_secret_key",
-    "label": "Merchant Secret Key",
-    "type": "password",
-    "default": ""
-  },
-  {
-    "tab": "Einstellung",
-    "key": "channel_id",
-    "label": "Channel ID",
-    "type": "text",
-    "default": ""
-  }
 ]

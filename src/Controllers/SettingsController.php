@@ -19,10 +19,6 @@ class SettingsController extends Controller
 	 */
     public function configuration(Request $request, ConfigRepository $configRepository)
 	{
-		$response['merchant_identifier'] = $configRepository->get(IngenicoZvtHelper::getMerchantIdentifierKey());
-		$response['merchant_secret_key'] = $configRepository->get(IngenicoZvtHelper::getMerchantSecretKey());
-		$response['channelId'] = $configRepository->get(IngenicoZvtHelper::getChannelId());
-		
 		/**
 		 * @var $mopRepository PaymentMethodRepositoryContract
 		 */
