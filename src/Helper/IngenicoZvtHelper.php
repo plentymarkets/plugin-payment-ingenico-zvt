@@ -24,10 +24,8 @@ class IngenicoZvtHelper
 		'VPAY' => 'IngenicoZVT VPAY',
 		'GELDKArte-GIROGO' => 'IngenicoZVT GeldKarte/Girogo',
 		'MASTERCARD' => 'IngenicoZVT Mastercard',
-		'MASTERCARD_COMMON_DEBIT' => 'IngenicoZVT Mastercard Common Debit',
 		'VISA' => 'IngenicoZVT Visa',
 		'VISA_ELECTRON' => 'IngenicoZVT Visa Electron',
-		'VISA_COMMON_DEBIT' => 'IngenicoZVT Visa Common Debit',
 		'AMERICAN-EXPRESS' => 'IngenicoZVT American Express'
 		];
 	
@@ -40,10 +38,8 @@ class IngenicoZvtHelper
 		'VPAY' => '13',
 		'GELDKArte-GIROGO' => '30',
 		'MASTERCARD' => '6',
-		'MASTERCARD_COMMON_DEBIT' => '6',
-		'VISA' => '11',
+		'VISA' => '10',
 		'VISA_ELECTRON' => '11',
-		'VISA_COMMON_DEBIT' => '11',
 		'AMERICAN-EXPRESS' => '8'
 	];
 	
