@@ -23,7 +23,7 @@ Nachdem Sie das Payment-Plugin bereitgestellt haben, aktivieren Sie die Zahlungs
 
 1. Öffnen Sie das Menü **Einstellungen » Mandant (Shop) » Standard » POS » Tab: Zahlungsart**.
 2. Wählen Sie für die Option **Anbindung** die Einstellung **Ingenico (ZVT)**.
-3. **Speichern** Sie die Einstellungen. +
+3. **Speichern** Sie die Einstellungen.<br />
 → Die Zahlungsart ist aktiv.
 
 ## Terminal mit der Kasse verbinden
@@ -35,7 +35,7 @@ Die Verbindung zwischen Terminal und Kasse stellen Sie über die plentymarkets A
 1. Öffnen Sie das Menü **plentymarkets App  » Einstellungen » POS beta**.
 2. Geben Sie die **Terminal-IP** ein.
 3. Geben Sie den **Port** des Terminals ein.
-3. **Speichern** Sie die Einstellungen. +
+3. **Speichern** Sie die Einstellungen.<br />
 → Das Terminal wird mit der Kasse verbunden.
 
 ## Lizenz
