@@ -1,6 +1,8 @@
 # User Guide für das Plugin Ingenico ZVT
 
-Mit dem Plugin Ingenico ZVT verbinden Sie das stationäre Terminal iPP480 mit Drucker des Geräteherstellers Ingenico über das ZVT-Protokoll mit der Kassensoftware plentymarkets POS. Um das Ingenico-Gerät mit plentymarkets POS nutzen zu können, benötigen Sie:
+Mit dem Plugin Ingenico ZVT verbinden Sie das stationäre Terminal iPP480 mit Drucker des Geräteherstellers Ingenico über das ZVT-Protokoll mit der Kassensoftware plentymarkets POS. 
+
+Um das Ingenico-Gerät mit plentymarkets POS nutzen zu können, benötigen Sie:
 
 * Ingenico iPP480 mit Drucker, Betriebsart **ZVT**, Verbindungsart **TCP/IP**
 * Service-Vertrag mit einem Provider
