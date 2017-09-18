@@ -15,7 +15,6 @@ class IngenicoZvtHelper
 	
 	private $paymentMethodRepository;
 	
-	//TODO more clearing types needed?
 	public static $paymentMethods = [
 		'UNKOWN' => 'IngenicoZVT Unknown',
 		'GIROCARD' => 'IngenicoZVT girocard',
@@ -26,10 +25,11 @@ class IngenicoZvtHelper
 		'MASTERCARD' => 'IngenicoZVT Mastercard',
 		'VISA' => 'IngenicoZVT Visa',
 		'VISA_ELECTRON' => 'IngenicoZVT Visa Electron',
-		'AMERICAN-EXPRESS' => 'IngenicoZVT American Express'
+		'AMERICAN-EXPRESS' => 'IngenicoZVT American Express',
+		'JCB' => 'IngenicoZVT JCB'
 		];
 	
-	//TODO update if more clearing types added
+	//update if more clearing types added
 	public static $cardTypeIds = [
 		'UNKOWN' => '0',
 		'GIROCARD' => '5',
@@ -40,7 +40,8 @@ class IngenicoZvtHelper
 		'MASTERCARD' => '6',
 		'VISA' => '10',
 		'VISA_ELECTRON' => '11',
-		'AMERICAN-EXPRESS' => '8'
+		'AMERICAN-EXPRESS' => '8',
+		'JCB' => '14'
 	];
 	
 	public function __construct(PaymentMethodRepositoryContract $paymentMethodRepositoryContract)

@@ -19,7 +19,6 @@ class IngenicoZvtPaymentMethod extends PaymentMethodService
 		$this->configRepository = $configRepository;
 	}
 	
-	//TODO needed?
 	public function isActive():bool
 	{
 		return true;
