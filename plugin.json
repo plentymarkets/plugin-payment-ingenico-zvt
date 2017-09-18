@@ -7,7 +7,7 @@
   "pluginIcon"        : "icon_plugin_xs.png",
   "price"             : 0.00,
   "description"       : "Ingenico Zvt plugin for plentymarkets",
-  "shortDescription"  : {"de":"Ingenico ZVT plugin für plentymarkets","en":"Ingenico ZVT plugin for plentymarkets"},
+  "shortDescription"  : {"de":"Mit dem Plugin IngenicoZVT verbinden Sie ZVT-fähige Karten-Terminals der Marke Ingenico mit Ihrer plentymarkets POS Kasse.","en":"The plugin IngenicoZVT connects ZVT card terminals by the manufacturer Ingenico with plentymarkets POS."},
   "categories"        : ["3519","3521"],
   "keywords"          : ["Ingenico", "zvt", "plentymarkets", "payment", "integration"],
   "author"            : "plentymarkets GmbH",
