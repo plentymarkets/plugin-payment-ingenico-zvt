@@ -21,7 +21,7 @@ class IngenicoZvtPaymentMethod extends PaymentMethodService
 	
 	public function isActive():bool
 	{
-		return true;
+		return false;
 	}
 	
 	public function getName():string
