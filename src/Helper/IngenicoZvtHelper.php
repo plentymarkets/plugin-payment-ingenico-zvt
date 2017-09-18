@@ -20,7 +20,7 @@ class IngenicoZvtHelper
 		'GIROCARD' => 'IngenicoZVT girocard',
 		'ELECTRONIC-CASH' => 'IngenicoZVT Electronic-Cash',
 		'MAESTRO' => 'IngenicoZVT Maestro',
-		'VPAY' => 'IngenicoZVT VPAY',
+		'VPAY' => 'IngenicoZVT V PAY',
 		'GELDKARTE-GIROGO' => 'IngenicoZVT GeldKarte/Girogo',
 		'MASTERCARD' => 'IngenicoZVT Mastercard',
 		'VISA' => 'IngenicoZVT Visa',
