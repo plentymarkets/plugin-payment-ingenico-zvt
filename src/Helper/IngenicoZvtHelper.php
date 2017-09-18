@@ -11,6 +11,8 @@ class IngenicoZvtHelper
 {
 	const PLUGIN_NAME = 'IngenicoZVT';
 	
+	const PLUGIN_KEY = "plenty_ingenico_zvt";
+	
 	const NO_PAYMENTMETHOD_FOUND = 'no_paymentmethod_found';
 	
 	private $paymentMethodRepository;
@@ -56,7 +58,7 @@ class IngenicoZvtHelper
 			if ($this->getPaymentMethod($paymentKey) == self::NO_PAYMENTMETHOD_FOUND)
 			{
 				$paymentMethodData = array(
-					'pluginKey' => self::PLUGIN_NAME,
+					'pluginKey' => self::PLUGIN_KEY,
 					'paymentKey' => $paymentKey,
 					'name' => $paymentName
 				);
@@ -79,7 +81,7 @@ class IngenicoZvtHelper
 	
 	private function getPaymentMethod($method)
 	{
-		$paymentMethods = $this->paymentMethodRepository->allForPlugin(self::PLUGIN_NAME);
+		$paymentMethods = $this->paymentMethodRepository->allForPlugin(self::PLUGIN_KEY);
 		
 		if(!is_null($paymentMethods))
 		{
