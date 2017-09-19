@@ -38,7 +38,7 @@ Die Verbindung zwischen Terminal und Kasse stellen Sie über die plentymarkets A
 2. Geben Sie die **Terminal-IP** ein.
 3. Geben Sie den **Port** des Terminals ein.
 3. **Speichern** Sie die Einstellungen.<br />
-→ Die Kasse kann das Terminal nun verwenden.
+→ Das Terminal kann mit der Kasse verwendet werden.
 
 ## Lizenz
 
