@@ -24,7 +24,8 @@ Nachdem Sie das Payment-Plugin bereitgestellt haben, aktivieren Sie die Zahlungs
 ##### Zahlungsart Ingenico (ZVT) für POS aktivieren:
 
 1. Öffnen Sie das Menü **Einstellungen » Mandant (Shop) » Standard » POS » Tab: Zahlungsart**.
-2. Wählen Sie für die Option **Anbindung** die Einstellung **Ingenico (ZVT)**.
+2. Wählen Sie für die Option **Anbindung** die Einstellung **Ingenico (ZVT)**.<br />
+**__Tipp:__** Wenn die Option **Ingenico (ZVT)** nicht verfügbar ist, wurde das Plugin noch nicht bereitgestellt.
 3. **Speichern** Sie die Einstellungen.<br />
 → Die Zahlungsart ist aktiv.
 
