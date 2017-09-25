@@ -4,7 +4,10 @@ The Ingenico ZVT plugin allows you to connect a stationary payment terminal with
 
 To use the Ingenico device with plentymarkets POS, you need the following:
 
-* Ingenico terminal with printer, operating mode **ZVT**, connection type **TCP/IP** * Service contract with a payment provider * plentymarkets POS * Mobile device on which the plentymarkets app is installed
+* Ingenico terminal with printer, operating mode **ZVT**, connection type **TCP/IP** 
+* Service contract with a payment provider 
+* plentymarkets POS 
+* Mobile device on which the plentymarkets app is installed
 
 <div class="alert alert-warning" role="alert">
    <strong><i>Note:</i></strong> To connect the terminal with plentymarkets POS, you need the <b>Terminal IP</b> and the <b>port</b> of the Ingenico terminal. This information only can be accessed by entering the technical support password on the device. As such, let your payment provider know early on that you need this information to connect the device to your POS software.
@@ -20,7 +23,10 @@ Once you have provisioned the payment plugin, activate the payment method in the
 
 ##### Activating the payment method Ingenico (ZVT) for a POS:
 
-1. Go to **Settings » Client (store) » Standard » POS » POS » Tab: Payment method**. 2. For the option **Connectivity**, select the setting **Ingenico (ZVT)**. 3. **Save** the settings.<br /> → The payment method is active.
+1. Go to **Settings » Client (store) » Standard » POS » POS » Tab: Payment method**.
+2. For the option **Connectivity**, select the setting **Ingenico (ZVT)**.
+3. **Save** the settings.<br /> 
+→ The payment method is active.
 
 ## Connecting the payment terminal with a POS
 
@@ -28,7 +34,11 @@ The connection between the payment terminal and the POS is established in the pl
 
 ##### Connecting the payment terminal with a POS:
 
-1. Go to **plentymarkets App » Settings » POS**. 2. Enter the **terminal IP**. 3. Enter the **port** of the payment terminal. 3. **Save** the settings.<br /> → The payment terminal can be used to process payments at this POS.
+1. Go to **plentymarkets App » Settings » POS**.
+2. Enter the **terminal IP**.
+3. Enter the **port** of the payment terminal.
+4. **Save** the settings.
+5. Tap **Test terminal connection** to check the connection.
 
 ## License
 
