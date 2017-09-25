@@ -38,8 +38,9 @@ Die Verbindung zwischen Terminal und Kasse stellen Sie über die plentymarkets A
 1. Öffnen Sie das Menü **plentymarkets App  » Einstellungen » POS**.
 2. Geben Sie die **Terminal-IP** ein.
 3. Geben Sie den **Port** des Terminals ein.
-4. **Speichern** Sie die Einstellungen.
-5. Tippen Sie auf **Terminal-Verbindung testen**, um die Verbindung zu prüfen.
+4. Setzen Sie ein Häkchen, wenn der **Zahlungsbeleg über Terminal** gedruckt werden soll. Wenn Sie kein Häkchen setzen, wird der Zahlungsbeleg für die Kartenzahlung über den Bondrucker ausgedruckt.
+5. **Speichern** Sie die Einstellungen.
+6. Tippen Sie auf **Terminal-Verbindung testen**, um die Verbindung zu prüfen.
 
 ## Lizenz
 
