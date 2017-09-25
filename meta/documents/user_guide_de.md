@@ -38,8 +38,8 @@ Die Verbindung zwischen Terminal und Kasse stellen Sie über die plentymarkets A
 1. Öffnen Sie das Menü **plentymarkets App  » Einstellungen » POS**.
 2. Geben Sie die **Terminal-IP** ein.
 3. Geben Sie den **Port** des Terminals ein.
-3. **Speichern** Sie die Einstellungen.
-4. Tippen Sie auf **Terminal-Verbindung testen**, um die Verbindung zu prüfen.
+4. **Speichern** Sie die Einstellungen.
+5. Tippen Sie auf **Terminal-Verbindung testen**, um die Verbindung zu prüfen.
 
 ## Lizenz
 
