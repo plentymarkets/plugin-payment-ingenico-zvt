@@ -18,7 +18,7 @@ class IngenicoZvtHelper
 	private $paymentMethodRepository;
 	
 	public static $paymentMethods = [
-		'UNKOWN' => 'IngenicoZVT Unknown',
+		'UNKNOWN' => 'IngenicoZVT Unknown',
 		'GIROCARD' => 'IngenicoZVT girocard',
 		'ELECTRONIC-CASH' => 'IngenicoZVT Electronic-Cash',
 		'MAESTRO' => 'IngenicoZVT Maestro',
@@ -33,7 +33,7 @@ class IngenicoZvtHelper
 	
 	//update if more clearing types added
 	public static $cardTypeIds = [
-		'UNKOWN' => '0',
+		'UNKNOWN' => '0',
 		'GIROCARD' => '5',
 		'ELECTRONIC-CASH' => '2',
 		'MAESTRO' => '46',
