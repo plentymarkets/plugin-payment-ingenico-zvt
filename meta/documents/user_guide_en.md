@@ -37,7 +37,7 @@ The connection between the payment terminal and the POS is established in the pl
 1. Go to **plentymarkets App » Settings » POS**.
 2. Enter the **terminal IP**.
 3. Enter the **port** of the payment terminal.
-4. Place a check mark to **Print payment receipt on terminal**. If the option is not checked, the payment receipt is printed on the receipt printer.
+4. Activate the option **Print payment receipt on terminal** to print payment receipts on the printer of the Ingenico device. If you do not activate this option, payment receipts for card payments are printed on the POS's receipt printer.
 5. **Save** the settings.
 6. Tap **Test terminal connection** to check the connection.
 
