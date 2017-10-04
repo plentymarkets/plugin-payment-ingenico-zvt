@@ -37,8 +37,8 @@ Die Verbindung zwischen Terminal und Kasse stellen Sie über die plentymarkets A
 
 1. Öffnen Sie das Menü **plentymarkets App  » Einstellungen » POS**.
 2. Nehmen Sie die Einstellungen vor. Beachten Sie Tabelle 1.
-5. **Speichern** Sie die Einstellungen.
-6. Tippen Sie auf **Terminal-Verbindung testen**, um die Verbindung zu prüfen.
+3. **Speichern** Sie die Einstellungen.
+4. Tippen Sie auf **Terminal-Verbindung testen**, um die Verbindung zu prüfen.
 
 <table>
 <caption>Tab. 1: ZVT-Terminal verbinden</caption>
@@ -49,7 +49,7 @@ Die Verbindung zwischen Terminal und Kasse stellen Sie über die plentymarkets A
 <tbody>
 <tr>
 <td>**Terminal-IP**</td>
-<td>IP des Ingenico-Kartenterminals eingeben.<br />
+<td>IP des Ingenico-Kartenterminals eingeben. <br />
 <b><i>Tipp:</i></b> Die IP ist nach Eingabe des Techniker-Passworts auf dem Gerät zugänglich.</td>
 </tr>
 <tr>
@@ -79,13 +79,13 @@ Der Tagesabschluss heißt bei Ingenico Kassenschnitt. Mit dem ZVT-Kassenschnitt 
 
 ##### plentymarkets POS Tagesabschluss und Ingenico-Kassenschnitt gleichzeitig erstellen:
 
-1. Tippen Sie im POS-Menü auf **Tagesabschluss**.<br />
+1. Tippen Sie im POS-Menü auf **Tagesabschluss**. <br />
 → Der Soll-Kassenbestand wird eingeblendet.
 2. Prüfen Sie den tatsächlichen Kassenbestand und geben Sie diesen Ist-Bestand ein.
-3. Tippen Sie bei **Gleichzeitig Tagesabschluss für Terminal erstellen?** auf **Ja**.<br />
-→ Der plentymarkets POS Tagesabschluss wird in plentymarkets importiert und im Menü **Aufträge » Dokumentenarchiv** gespeichert.<br />
-→ Die Kartenumsätze werden an den Netzbetreiber übertragen.<br />
-→ Der Kassenschnittbeleg des Terminals wird gedruckt.<br />
+3. Tippen Sie bei **Gleichzeitig Tagesabschluss für Terminal erstellen?** auf **Ja**. <br />
+→ Der plentymarkets POS Tagesabschluss wird in plentymarkets importiert und im Menü **Aufträge » Dokumentenarchiv** gespeichert. <br />
+→ Die Kartenumsätze werden an den Netzbetreiber übertragen. <br />
+→ Der Kassenschnittbeleg des Terminals wird gedruckt. <br />
 → Der Umsatzspeicher im Terminal wird auf Null gesetzt.
 
 ## Lizenz
