@@ -55,7 +55,7 @@ Die Verbindung zwischen Terminal und Kasse stellen Sie über die plentymarkets A
 <tr>
 <td>**Port**</td>
 <td>Port des Ingenico-Kartenterminals eingeben.<br />
-<b><i>Tipp:</i></b> Die IP ist nach Eingabe des Techniker-Passworts auf dem Gerät zugänglich.</td>
+<b><i>Tipp:</i></b> Der Port ist nach Eingabe des Techniker-Passworts auf dem Gerät zugänglich.</td>
 </tr>
 <tr>
 <td>**Terminal-Belege auf Terminal drucken**</td>
@@ -75,7 +75,7 @@ Die Verbindung zwischen Terminal und Kasse stellen Sie über die plentymarkets A
 
 ## Tagesabschluss/Kassenschnitt durchführen
 
-Der Tagesabschluss heißt bei Ingenico Kassenschnitt. Mit dem ZVT-Kassenschnitt werden alle im Terminal gespeicherten Kartenumsätze an den Netzbetreiber übertragen (Clearing). Weitere Informationen zum ZVT-Kassenschnitt finden Sie im Handbuch des Ingenico-Geräts. Über plentymarkets POS können Sie den Ingenico-Kassenschnitt auch gleichzeitig mit dem plentymarkets POS Tagesabschluss anstoßen. Gehen Sie dazu wie folgt vor:
+Der Tagesabschluss heißt bei Ingenico Kassenschnitt. Mit dem ZVT-Kassenschnitt werden alle im Terminal gespeicherten Kartenumsätze an den Netzbetreiber übertragen (Clearing). Weitere Informationen zum Terminal-Kassenschnitt finden Sie im Handbuch des Ingenico-Geräts. Über plentymarkets POS können Sie den Ingenico-Kassenschnitt auch gleichzeitig mit dem plentymarkets POS Tagesabschluss anstoßen. Gehen Sie dazu wie folgt vor:
 
 ##### plentymarkets POS Tagesabschluss und Ingenico-Kassenschnitt gleichzeitig erstellen:
 
@@ -83,9 +83,9 @@ Der Tagesabschluss heißt bei Ingenico Kassenschnitt. Mit dem ZVT-Kassenschnitt 
 → Der Soll-Kassenbestand wird eingeblendet.
 2. Prüfen Sie den tatsächlichen Kassenbestand und geben Sie diesen Ist-Bestand ein.
 3. Tippen Sie bei **Gleichzeitig Tagesabschluss für Terminal erstellen?** auf **Ja**.<br />
-→ Der Tagesabschluss wird in plentymarkets importiert und im Menü **Aufträge » Dokumentenarchiv** gespeichert.<br />
+→ Der plentymarkets POS Tagesabschluss wird in plentymarkets importiert und im Menü **Aufträge » Dokumentenarchiv** gespeichert.<br />
 → Die Kartenumsätze werden an den Netzbetreiber übertragen.<br />
-→ Der Kassenschnittbeleg wird gedruckt.<br />
+→ Der Kassenschnittbeleg des Terminals wird gedruckt.<br />
 → Der Umsatzspeicher im Terminal wird auf Null gesetzt.
 
 ## Lizenz
