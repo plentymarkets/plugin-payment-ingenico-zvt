@@ -1,10 +1,10 @@
 # User Guide für das Plugin Ingenico ZVT
 
-Mit dem Plugin Ingenico ZVT verbinden Sie ein stationäres Terminal mit Drucker des Geräteherstellers Ingenico über das ZVT-Protokoll mit der Kassensoftware plentymarkets POS. 
+Mit dem Plugin Ingenico ZVT verbinden Sie ein stationäres Terminal mit Drucker des Geräteherstellers Ingenico über das ZVT-Protokoll mit der Kassensoftware plentymarkets POS.
 
 Um das Ingenico-Gerät mit plentymarkets POS nutzen zu können, benötigen Sie:
 
-* Ingenico Terminal mit Drucker, Betriebsart **ZVT**, Verbindungsart **TCP/IP**
+* Ingenico-Terminal mit Drucker, Betriebsart **ZVT**, Verbindungsart **TCP/IP**
 * Service-Vertrag mit einem Provider
 * plentymarkets POS Kasse
 * Mobiles Gerät, auf der die plentymarkets App installiert ist
@@ -36,11 +36,57 @@ Die Verbindung zwischen Terminal und Kasse stellen Sie über die plentymarkets A
 ##### Terminal mit der Kasse verbinden:
 
 1. Öffnen Sie das Menü **plentymarkets App  » Einstellungen » POS**.
-2. Geben Sie die **Terminal-IP** ein.
-3. Geben Sie den **Port** des Terminals ein.
-4. Aktiveren Sie Option **Zahlungsbeleg über Terminal**, wenn der Zahlungsbeleg über den Drucker des Ingenico-Geräts  gedruckt werden soll. Wenn Sie die Option nicht aktivieren, wird der Zahlungsbeleg für die Kartenzahlung über den Bondrucker ausgedruckt.
+2. Nehmen Sie die Einstellungen vor. Beachten Sie Tabelle 1.
 5. **Speichern** Sie die Einstellungen.
 6. Tippen Sie auf **Terminal-Verbindung testen**, um die Verbindung zu prüfen.
+
+<table>
+<caption>Tab. 1: ZVT-Terminal verbinden</caption>
+<thead>
+<th>Einstellung</th>
+<th>Erläuterung</th>
+</thead>
+<tbody>
+<tr>
+<td>*Terminal-IP*</td>
+<td>IP des Ingenico-Kartenterminals eingeben.<br />
+**__Tipp:__** Die IP ist nach Eingabe des Techniker-Passworts auf dem Gerät zugänglich.</td>
+</tr>
+<tr>
+<td>*Port*</td>
+<td>Port des Ingenico-Kartenterminals eingeben.<br />
+**__Tipp:__** Die IP ist nach Eingabe des Techniker-Passworts auf dem Gerät zugänglich.</td>
+</tr>
+<tr>
+<td>*Terminal-Belege auf Terminal drucken*</td>
+<td>Aktivieren, um Belege für Kartenzahlungen und Ingenico-Tagesberichte auf dem Drucker des Karten-Terminals zu drucken. Wenn die Option nicht aktiviert ist, werden die Terminal-Belege auf dem Belegdrucker der Kasse gedruckt.</td>
+</tr>
+<tr>
+<td>*Auftragspositionen auf Händlerbeleg ausgeben*</td>
+<td>Aktivieren, um die Positionen des Auftrags auf dem Händlerbeleg darzustellen.<br />
+**__Tipp:__** Einstellung greift nur, wenn die Option *Terminal-Belege auf Terminal drucken* nicht aktiviert ist.</td>
+</tr>
+<tr>
+<td>*Terminal-Verbindung testen*</td>
+<td>Testet, ob die Verbindung zum Karten-Terminal hergestellt werden kann.</td>
+</tr>
+</tbody>
+</table>
+
+## Tagesabschluss/Kassenschnitt durchführen
+
+Der Tagesabschluss heißt bei Ingenico Kassenschnitt. Mit dem ZVT-Kassenschnitt werden alle im Terminal gespeicherten Kartenumsätze an den Netzbetreiber übertragen (Clearing). Weitere Informationen zum ZVT-Kassenschnitt finden Sie im Handbuch des Ingenico-Geräts. Über plentymarkets POS können Sie den Ingenico-Kassenschnitt auch gleichzeitig mit dem plentymarkets POS Tagesabschluss anstoßen. Gehen Sie dazu wie folgt vor:
+
+##### plentymarkets POS Tagesabschluss und Ingenico-Kassenschnitt gleichzeitig erstellen:
+
+1. Tippen Sie im POS-Menü auf **Tagesabschluss**.<br />
+→ Der Soll-Kassenbestand wird eingeblendet.
+2. Prüfen Sie den tatsächlichen Kassenbestand und geben Sie diesen Ist-Bestand ein.
+3. Tippen Sie bei **Gleichzeitig Tagesabschluss für Terminal erstellen?** auf **Ja**.<br />
+→ Der Tagesabschluss wird in plentymarkets importiert und im Menü **Aufträge » Dokumentenarchiv** gespeichert.<br />
+→ Die Kartenumsätze werden an den Netzbetreiber übertragen.<br />
+→ Der Kassenschnittbeleg wird gedruckt.<br />
+→ Der Umsatzspeicher im Terminal wird auf Null gesetzt.
 
 ## Lizenz
 
