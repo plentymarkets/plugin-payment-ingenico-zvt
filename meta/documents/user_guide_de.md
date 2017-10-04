@@ -10,7 +10,7 @@ Um das Ingenico-Gerät mit plentymarkets POS nutzen zu können, benötigen Sie:
 * Mobiles Gerät, auf der die plentymarkets App installiert ist
 
 <div class="alert alert-warning" role="alert">
-   <strong><i>Hinweis:</strong></i> Um das Gerät mit plentymarkets POS zu verbinden, benötigen Sie die <b>Terminal-IP</b> und den <b>Port</b> des Ingenico Terminals. Diese Gerätedaten sind nur nach Eingabe des Techniker-Passworts auf dem Gerät zugänglich. Teilen Sie daher Ihrem Payment Provider rechtzeitig mit, dass Sie diese Daten benötigen, um das Terminal mit Ihrer Kassensoftware zu verbinden.
+   <strong>Um das Gerät mit plentymarkets POS zu verbinden, benötigen Sie die <b>Terminal-IP</b> und den <b>Port</b> des Ingenico Terminals. Diese Gerätedaten sind nur nach Eingabe des Techniker-Passworts auf dem Gerät zugänglich. Teilen Sie daher Ihrem Payment Provider rechtzeitig mit, dass Sie diese Daten benötigen, um das Terminal mit Ihrer Kassensoftware zu verbinden.
 </div>
 
 Weitere Informationen zur Einrichtung und den Hardware-Anforderungen von plentymarkets POS finden Sie im [plentymarkets Handbuch](https://knowledge.plentymarkets.com/omni-channel/pos/pos-einrichten).
@@ -25,7 +25,7 @@ Nachdem Sie das Payment-Plugin bereitgestellt haben, aktivieren Sie die Zahlungs
 
 1. Öffnen Sie das Menü **Einstellungen » Mandant (Shop) » Standard » POS » Tab: Zahlungsart**.
 2. Wählen Sie für die Option **Anbindung** die Einstellung **Ingenico (ZVT)**.<br />
-**__Tipp:__** Wenn die Option **Ingenico (ZVT)** nicht verfügbar ist, wurde das Plugin noch nicht bereitgestellt.
+<b><i>Tipp:</i></b> Wenn die Option **Ingenico (ZVT)** nicht verfügbar ist, wurde das Plugin noch nicht bereitgestellt.
 3. **Speichern** Sie die Einstellungen.<br />
 → Die Zahlungsart ist aktiv.
 
@@ -48,26 +48,26 @@ Die Verbindung zwischen Terminal und Kasse stellen Sie über die plentymarkets A
 </thead>
 <tbody>
 <tr>
-<td>*Terminal-IP*</td>
+<td>**Terminal-IP**</td>
 <td>IP des Ingenico-Kartenterminals eingeben.<br />
-**__Tipp:__** Die IP ist nach Eingabe des Techniker-Passworts auf dem Gerät zugänglich.</td>
+<b><i>Tipp:</i></b> Die IP ist nach Eingabe des Techniker-Passworts auf dem Gerät zugänglich.</td>
 </tr>
 <tr>
-<td>*Port*</td>
+<td>**Port**</td>
 <td>Port des Ingenico-Kartenterminals eingeben.<br />
-**__Tipp:__** Die IP ist nach Eingabe des Techniker-Passworts auf dem Gerät zugänglich.</td>
+<b><i>Tipp:</i></b> Die IP ist nach Eingabe des Techniker-Passworts auf dem Gerät zugänglich.</td>
 </tr>
 <tr>
-<td>*Terminal-Belege auf Terminal drucken*</td>
+<td>**Terminal-Belege auf Terminal drucken**</td>
 <td>Aktivieren, um Belege für Kartenzahlungen und Ingenico-Tagesberichte auf dem Drucker des Karten-Terminals zu drucken. Wenn die Option nicht aktiviert ist, werden die Terminal-Belege auf dem Belegdrucker der Kasse gedruckt.</td>
 </tr>
 <tr>
-<td>*Auftragspositionen auf Händlerbeleg ausgeben*</td>
+<td>**Auftragspositionen auf Händlerbeleg ausgeben**</td>
 <td>Aktivieren, um die Positionen des Auftrags auf dem Händlerbeleg darzustellen.<br />
-**__Tipp:__** Einstellung greift nur, wenn die Option *Terminal-Belege auf Terminal drucken* nicht aktiviert ist.</td>
+<b><i>Tipp:</i></b> Einstellung greift nur, wenn die Option *Terminal-Belege auf Terminal drucken* nicht aktiviert ist.</td>
 </tr>
 <tr>
-<td>*Terminal-Verbindung testen*</td>
+<td>**Terminal-Verbindung testen**</td>
 <td>Testet, ob die Verbindung zum Karten-Terminal hergestellt werden kann.</td>
 </tr>
 </tbody>
