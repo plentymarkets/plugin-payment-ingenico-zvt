@@ -10,7 +10,7 @@ Um das Ingenico-Gerät mit plentymarkets POS nutzen zu können, benötigen Sie:
 * Mobiles Gerät, auf dem die plentymarkets App installiert ist
 
 <div class="alert alert-warning" role="alert">
-Um das Gerät mit plentymarkets POS zu verbinden, benötigen Sie die <b>Terminal-IP</b> und den <b>Port</b> des Ingenico Terminals. Diese Gerätedaten sind nur nach Eingabe des Techniker-Passworts auf dem Gerät zugänglich. Teilen Sie daher Ihrem Payment Provider rechtzeitig mit, dass Sie diese Daten benötigen, um das Terminal mit Ihrer Kassensoftware zu verbinden.
+Um das Gerät mit plentymarkets POS zu verbinden, benötigen Sie die <b>Terminal-IP</b> und den <b>Port</b> des Ingenico-Terminals. Diese Gerätedaten sind nur nach Eingabe des Techniker-Passworts auf dem Gerät zugänglich. Teilen Sie daher Ihrem Payment Provider rechtzeitig mit, dass Sie diese Daten benötigen, um das Terminal mit Ihrer Kassensoftware zu verbinden.
 </div>
 
 Weitere Informationen zur Einrichtung und den Hardware-Anforderungen von plentymarkets POS finden Sie im [plentymarkets Handbuch](https://knowledge.plentymarkets.com/omni-channel/pos/pos-einrichten).
@@ -35,10 +35,14 @@ Die Verbindung zwischen Terminal und Kasse stellen Sie über die plentymarkets A
 
 ##### Terminal mit der Kasse verbinden:
 
-1. Öffnen Sie das Menü **plentymarkets App  » Einstellungen » POS**.
-2. Nehmen Sie die Einstellungen vor. Beachten Sie Tabelle 1.
+1. Öffnen Sie das Menü **plentymarkets App » Einstellungen » POS**.
+2. Nehmen Sie die Einstellungen vor. Beachten Sie Tabelle 1. <br />
+<b><i>Hinweis:</i></b> Wenn dasselbe Terminal an mehr als eine Kasse angebunden werden soll, müssen für alle Kassen dieselben Einstellungen getroffen werden.
 3. **Speichern** Sie die Einstellungen.
 4. Tippen Sie auf **Terminal-Verbindung testen**, um die Verbindung zu prüfen.
+
+
+
 
 <table>
 <caption>Tab. 1: ZVT-Terminal verbinden</caption>
