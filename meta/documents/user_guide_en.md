@@ -32,7 +32,8 @@ The connection between the payment terminal and the POS is established in the pl
 ##### Connecting the payment terminal with a POS:
 
 1. Go to **plentymarkets App » Settings » POS**.
-2. Carry out the settings. Pay attention to the information given in table 1.
+2. Carry out the settings. Pay attention to the information given in table 1. <br />
+<b><i>Note:</i></b> To connect the same terminal to more than one POS,  you need to select the same settings for all these POS.
 3. **Save** the settings.
 4. Tap **Test terminal connection** to check if the connection can be established.
 
