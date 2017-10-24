@@ -4,8 +4,8 @@ Mit dem Plugin Ingenico ZVT verbinden Sie ein stationäres Terminal mit Drucker 
 
 Um das Ingenico-Gerät mit plentymarkets POS nutzen zu können, benötigen Sie:
 
-* Ingenico-Terminal mit Drucker, Betriebsart **ZVT**, Verbindungsart **TCP/IP**
-* Service-Vertrag mit einem Provider
+* Ingenico-Terminal mit Drucker, Betriebsart **ZVT**, Verbindungsart **TCP/IP**, Blockdruck **Ein**
+* Service-Vertrag mit einem Payment Provider
 * plentymarkets POS Kasse
 * Mobiles Gerät, auf dem die plentymarkets App installiert ist
 
@@ -41,9 +41,6 @@ Die Verbindung zwischen Terminal und Kasse stellen Sie über die plentymarkets A
 3. **Speichern** Sie die Einstellungen.
 4. Tippen Sie auf **Terminal-Verbindung testen**, um die Verbindung zu prüfen.
 
-
-
-
 <table>
 <caption>Tab. 1: ZVT-Terminal verbinden</caption>
 <thead>
@@ -63,7 +60,8 @@ Die Verbindung zwischen Terminal und Kasse stellen Sie über die plentymarkets A
 </tr>
 <tr>
 <td>**Terminal-Belege auf Terminal drucken**</td>
-<td>Aktivieren, um Belege für Kartenzahlungen und Ingenico-Tagesberichte auf dem Drucker des Karten-Terminals zu drucken. Wenn die Option nicht aktiviert ist, werden die Terminal-Belege auf dem Belegdrucker der Kasse gedruckt.</td>
+<td>Aktivieren, um Belege für Kartenzahlungen und Ingenico-Tagesberichte auf dem Drucker des Karten-Terminals zu drucken. Wenn die Option nicht aktiviert ist, werden die Terminal-Belege auf dem Belegdrucker der Kasse gedruckt. <br />
+<b><i>Hinweis:</i></b> Wenn Belege für Kartenzahlungen und Ingenico-Tagesberichte auf dem Belegdrucker der Kasse gedruckt werden sollen, muss in den Betriebsartoptionen des Terminals die Option **Blockdruck** auf **Ein** gestellt werden. Diese Einstellung kann erst vorgenommen werden, nachdem das Techniker-Passwort eingegeben wurde.</td>
 </tr>
 <tr>
 <td>**Auftragspositionen auf Händlerbeleg ausgeben**</td>
