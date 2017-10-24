@@ -4,7 +4,10 @@ The Ingenico ZVT plugin allows you to connect a stationary payment terminal with
 
 To use the Ingenico device with plentymarkets POS, you need the following:
 
-* Ingenico terminal with printer, operating mode **ZVT**, connection type **TCP/IP** * Service contract with a payment provider * plentymarkets POS * Mobile device on which the plentymarkets app is installed
+* Ingenico terminal with printer, operating mode **ZVT**, connection type **TCP/IP**, bock print **Ein** (**On**)
+* Service contract with a payment provider
+* plentymarkets POS
+* Mobile device on which the plentymarkets app is installed
 
 <div class="alert alert-warning" role="alert">
 To connect the terminal with plentymarkets POS, you need the <b>Terminal IP</b> and the <b>port</b> of the Ingenico terminal. This information only can be accessed by entering the technical support password on the device. As such, let your payment provider know early on that you need this information to connect the device to your POS software.
@@ -54,7 +57,8 @@ The connection between the payment terminal and the POS is established in the pl
 </tr>
 <tr>
 <td>**Print terminal receipts on terminal**</td>
-<td>Activate to print receipts for card payments and Ingenico z reports on the card terminal's printer. If you do not activate this option, terminal receipts are printed on the receipt printer connected to the POS.</td>
+<td>Activate to print receipts for card payments and Ingenico z reports on the card terminal's printer. If you do not activate this option, terminal receipts are printed on the receipt printer connected to the POS. <br />
+<b><i>Note:</i></b> To print receipts for card payments and Ingenico z reports on the POS receipt printer, you need to set the operating mode option **Block print** to **Ein** (**On**). This setting requires entering the device's technical support password.</td>
 </tr>
 <tr>
 <td>**Include order items on merchant receipt**</td>
