@@ -69,6 +69,11 @@ Die Verbindung zwischen Terminal und Kasse stellen Sie über die plentymarkets A
 <b><i>Tipp:</i></b> Einstellung greift nur, wenn die Option **Terminal-Belege auf Terminal drucken** nicht aktiviert ist.</td>
 </tr>
 <tr>
+<td>**Quittungsnr. auf Händlerbeleg ausgeben**</td>
+<td>Aktivieren, um die plentymarkets Belegnummer des Auftrags auf dem Händlerbeleg darzustellen.<br />
+<b><i>Tipp:</i></b> Einstellung greift nur, wenn die Option **Terminal-Belege auf Terminal drucken** nicht aktiviert ist.</td>
+</tr>
+<tr>
 <td>**Terminal-Verbindung testen**</td>
 <td>Testet, ob die Verbindung zum Karten-Terminal hergestellt werden kann.</td>
 </tr>
