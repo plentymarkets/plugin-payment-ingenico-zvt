@@ -65,6 +65,11 @@ The connection between the payment terminal and the POS is established in the pl
 <td>Activate to print items of the order on the seller receipt.<br /> <b><i>Tip:</i></b> This setting is only available if the option **Print terminal receipts on terminal** is not activated.</td>
 </tr>
 <tr>
+<td>**Include POS receipt no. on merchant receipt**</td>
+<td>Activate to print the plentymarkets POS receipt number on the seller receipt.<br />
+<b><i>Tip:</i></b> This setting is only available if the option **Print terminal receipts on terminal** is not activated.</td>
+</tr>
+<tr>
 <td>**Test terminal connection**</td>
 <td>Tests if the connection to the card terminal can be established.</td>
 </tr>
