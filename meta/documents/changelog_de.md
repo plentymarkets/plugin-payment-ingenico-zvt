@@ -1,5 +1,9 @@
 #Release Notes für IngenicoZVT
 
+##v.1.0.2
+###Geändert
+- Lizenzupdate
+
 ##v.1.0.1
 ###Geändert
 - Lizenzupdate
