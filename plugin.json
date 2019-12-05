@@ -3,6 +3,7 @@
   "namespace"         : "IngenicoZvt",
   "type"              : "payment",
   "version"           : "1.0.1",
+  "license"           : "AGPL-3.0",
   "pluginIcon"        : "icon_plugin_xs.png",
   "price"             : 0.00,
   "description"       : "Ingenico Zvt plugin for plentymarkets",
