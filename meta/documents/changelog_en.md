@@ -2,7 +2,7 @@
 
 ##v.1.0.1
 ###Changed
-- Licence update
+- License update
 
 ##v.1.0.0
 ###Functions
