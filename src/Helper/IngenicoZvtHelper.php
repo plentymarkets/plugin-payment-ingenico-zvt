@@ -5,6 +5,17 @@
 namespace IngenicoZvt\Helper;
 
 
+use IngenicoZvt\Methods\IngenicoZvtAmericanExpressPaymentMethod;
+use IngenicoZvt\Methods\IngenicoZvtElectronicCashPaymentMethod;
+use IngenicoZvt\Methods\IngenicoZvtGirocardPaymentMethod;
+use IngenicoZvt\Methods\IngenicoZvtGirogoPaymentMethod;
+use IngenicoZvt\Methods\IngenicoZvtJcbPaymentMethod;
+use IngenicoZvt\Methods\IngenicoZvtMaestroPaymentMethod;
+use IngenicoZvt\Methods\IngenicoZvtMastercardPaymentMethod;
+use IngenicoZvt\Methods\IngenicoZvtUnknownPaymentMethod;
+use IngenicoZvt\Methods\IngenicoZvtVisaElectronPaymentMethod;
+use IngenicoZvt\Methods\IngenicoZvtVisaPaymentMethod;
+use IngenicoZvt\Methods\IngenicoZvtVpayPaymentMethod;
 use Plenty\Modules\Payment\Method\Contracts\PaymentMethodRepositoryContract;
 
 class IngenicoZvtHelper
@@ -30,6 +41,20 @@ class IngenicoZvtHelper
 		'AMERICAN-EXPRESS' => 'IngenicoZVT American Express',
 		'JCB' => 'IngenicoZVT JCB'
 		];
+
+    public static $paymentMethodClasses = [
+        'UNKNOWN' => IngenicoZvtUnknownPaymentMethod::class,
+        'GIROCARD' => IngenicoZvtGirocardPaymentMethod::class,
+        'ELECTRONIC-CASH' => IngenicoZvtElectronicCashPaymentMethod::class,
+        'MAESTRO' => IngenicoZvtMaestroPaymentMethod::class,
+        'VPAY' => IngenicoZvtVpayPaymentMethod::class,
+        'GELDKARTE-GIROGO' => IngenicoZvtGirogoPaymentMethod::class,
+        'MASTERCARD' => IngenicoZvtMastercardPaymentMethod::class,
+        'VISA' => IngenicoZvtVisaPaymentMethod::class,
+        'VISA_ELECTRON' => IngenicoZvtVisaElectronPaymentMethod::class,
+        'AMERICAN-EXPRESS' => IngenicoZvtAmericanExpressPaymentMethod::class,
+        'JCB' => IngenicoZvtJcbPaymentMethod::class
+    ];
 	
 	//update if more clearing types added
 	public static $cardTypeIds = [
