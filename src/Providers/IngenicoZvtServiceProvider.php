@@ -25,10 +25,12 @@ class IngenicoZvtServiceProvider extends ServiceProvider
 		//Register new PaymentMethods
 		foreach (IngenicoZvtHelper::$paymentMethods as $paymentKey => $paymentName)
 		{
-			$container->register(IngenicoZvtHelper::PLUGIN_NAME.'::'.$paymentKey,
-				IngenicoZvtPaymentMethod::class,
-				[]
-			);
+            if(isset(IngenicoZvtHelper::$paymentMethodClasses[$paymentKey])){
+                $container->register(IngenicoZvtHelper::PLUGIN_KEY.'::'.$paymentKey,
+                    IngenicoZvtHelper::$paymentMethodClasses[$paymentKey],
+                    []
+                );
+            }
 		}
 	}
 }

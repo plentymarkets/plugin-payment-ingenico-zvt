@@ -1,5 +1,9 @@
 #Release Notes for IngenicoZVT
 
+## v.1.0.3
+### Functions
+-  Added new functions for the backend visibility
+
 ##v.1.0.2
 ###Changed
 - License update
