@@ -19,7 +19,7 @@ Check the [plentymarkets manual](https://knowledge.plentymarkets.com/pos/pos-ein
 
 ## Activating the payment method for a POS
 
-Once you have provisioned the payment plugin, activate the payment method in the plentymarkets back end to make sure that POS orders are processed correctly.
+Once you have installed and provisioned the payment plugin, activate the payment method in the plentymarkets back end to make sure that POS orders are processed correctly.
 
 ##### Activating the payment method Ingenico (ZVT) for a POS:
 
@@ -85,8 +85,8 @@ Z reports are called z totals on your Ingenico device. A z total transmits all c
 
 1. Tap on **Z report** in the POS menu. <br />
  → The expected amount of cash on hand is displayed.
- 2. Count the actual cash on hand and enter this amount.
- 3. Tap on **Yes** for **Also create z report for terminal?**. <br />
+2. Count the actual cash on hand and enter this amount.
+3. Tap on **Yes** for **Also create z report for terminal?**. <br />
 → The plentyPOS z report is imported to plentymarkets and saved in the **Orders » Document archive** menu. <br />
 → The card revenues are transmitted to the payment provider. <br />
 → The z total for the terminal is printed. <br />
