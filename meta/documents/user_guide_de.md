@@ -84,7 +84,7 @@ Die Verbindung zwischen Terminal und Kasse stellst du über die plentymarkets Ap
 
 Der Tagesabschluss heißt bei Ingenico Kassenschnitt. Mit dem ZVT-Kassenschnitt werden alle im Terminal gespeicherten Kartenumsätze an den Netzbetreiber übertragen (Clearing). Weitere Informationen zum Terminal-Kassenschnitt findest du im Handbuch des Ingenico-Geräts. Über plentyPOS kannst du den Ingenico-Kassenschnitt auch gleichzeitig mit dem plentyPOS Tagesabschluss anstoßen. Gehe dazu wie folgt vor:
 
-##### plentymarkets POS Tagesabschluss und Ingenico-Kassenschnitt gleichzeitig erstellen:
+##### plentyPOS Tagesabschluss und Ingenico-Kassenschnitt gleichzeitig erstellen:
 
 1. Tippe im POS-Menü auf **Tagesabschluss**. <br />
 → Der Soll-Kassenbestand wird eingeblendet.
