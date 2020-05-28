@@ -3,6 +3,7 @@
 ## v.1.0.4
 ### Geändert
 - Stichwortoptimierung für den Marketplace
+- Anpassungen im User Guide
 
 ## v.1.0.3
 ### Funktionen
