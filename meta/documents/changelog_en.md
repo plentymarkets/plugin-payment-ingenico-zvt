@@ -1,8 +1,13 @@
 #Release Notes for IngenicoZVT
 
+## v.1.0.4
+### Changed
+- Keyword optimisation for plentyMarketplace
+- User guide adjustments
+
 ## v.1.0.3
 ### Functions
--  Added new functions for the backend visibility
+- Added new functions for the backend visibility
 
 ##v.1.0.2
 ###Changed
@@ -14,4 +19,4 @@
 
 ##v.1.0.0
 ###Functions
-- Ingenico payment terminal integration for plentymarkets POS via ZVT 
+- Ingenico payment terminal integration for plentyPOS via ZVT 
