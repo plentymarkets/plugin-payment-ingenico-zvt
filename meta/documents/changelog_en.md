@@ -1,4 +1,8 @@
-#Release Notes for IngenicoZVT
+# Release Notes for IngenicoZVT
+
+## v.1.0.5
+### Changed
+- User guide adjustments
 
 ## v.1.0.4
 ### Changed
@@ -9,14 +13,14 @@
 ### Functions
 - Added new functions for the backend visibility
 
-##v.1.0.2
+## v.1.0.2
 ###Changed
 - License update
 
-##v.1.0.1
-###Changed
+## v.1.0.1
+### Changed
 - License update
 
-##v.1.0.0
-###Functions
+## v.1.0.0
+### Functions
 - Ingenico payment terminal integration for plentyPOS via ZVT 

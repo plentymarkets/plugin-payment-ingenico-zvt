@@ -13,7 +13,7 @@ Um das Ingenico-Gerät mit plentyPOS nutzen zu können, benötigst du:
     Um das Gerät mit plentyPOS zu verbinden, benötigst du die <b>Terminal-IP</b> und den <b>Port</b> des Ingenico-Terminals. Diese Gerätedaten sind nur nach Eingabe des Techniker-Passworts auf dem Gerät zugänglich. Teile deinem Payment Provider daher rechtzeitig mit, dass du diese Daten benötigst, um das Terminal mit deiner Kassensoftware zu verbinden.
 </div>
 
-Weitere Informationen zur Einrichtung und den Hardware-Anforderungen von plentyPOS findest du im [plentymarkets Handbuch](https://knowledge.plentymarkets.com/pos/pos-einrichten).
+Weitere Informationen zur Einrichtung und den Hardware-Anforderungen von plentyPOS findest du im [plentymarkets Handbuch](https://knowledge.plentymarkets.com/de-de/manual/main/pos/pos-einrichten.html#10).
 
 <div class="container-toc"></div>
 
