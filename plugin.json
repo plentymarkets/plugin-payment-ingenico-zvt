@@ -1,18 +1,47 @@
 {
-  "name"              : "IngenicoZVT",
-  "namespace"         : "IngenicoZvt",
-  "type"              : "payment",
-  "version"           : "1.0.5",
-  "license"           : "AGPL-3.0",
-  "pluginIcon"        : "icon_plugin_xs.png",
-  "price"             : 0.00,
-  "description"       : "Ingenico ZVT plugin for plentymarkets",
-  "shortDescription"  : {"de":"Mit dem Plugin IngenicoZVT verbindest du ZVT-fähige Kartenterminals der Marke Ingenico mit deiner plentyPOS Kassen-Hardware.","en":"The plugin IngenicoZVT connects ZVT card terminals manufacturered by Ingenico with plentyPOS."},
-  "categories"        : ["3519"],
-  "keywords"          : ["Ingenico", "zvt", "plentymarkets", "Zahlungsart", "payment method", "plentyPOS", "plenty", "POS", "Kasse", "Kassensystem", "point of sale", "Kartenzahlung", "card payment", "EC", "card reading device", "Kartenlesegerät", "V Pay", "Kartenterminal", "card terminal", "card"],
-  "author"            : "plentysystems AG",
-  "authorIcon"        : "icon_author_xs.png",
-  "email"             : "sales@plentymarkets.com",
-  "phone"             : "+49 561 98 681 100",
-  "serviceProvider"   : "IngenicoZvt\\Providers\\IngenicoZvtServiceProvider"
+  "name": "IngenicoZVT",
+  "namespace": "IngenicoZvt",
+  "type": "payment",
+  "version": "1.0.5",
+  "platform": {
+    "php": ">=7.3 <8.1"
+  },
+  "license": "AGPL-3.0",
+  "pluginIcon": "icon_plugin_xs.png",
+  "price": 0.00,
+  "description": "Ingenico ZVT plugin for plentymarkets",
+  "shortDescription": {
+    "de": "Mit dem Plugin IngenicoZVT verbindest du ZVT-fähige Kartenterminals der Marke Ingenico mit deiner plentyPOS Kassen-Hardware.",
+    "en": "The plugin IngenicoZVT connects ZVT card terminals manufacturered by Ingenico with plentyPOS."
+  },
+  "categories": [
+    "3519"
+  ],
+  "keywords": [
+    "Ingenico",
+    "zvt",
+    "plentymarkets",
+    "Zahlungsart",
+    "payment method",
+    "plentyPOS",
+    "plenty",
+    "POS",
+    "Kasse",
+    "Kassensystem",
+    "point of sale",
+    "Kartenzahlung",
+    "card payment",
+    "EC",
+    "card reading device",
+    "Kartenlesegerät",
+    "V Pay",
+    "Kartenterminal",
+    "card terminal",
+    "card"
+  ],
+  "author": "plentysystems AG",
+  "authorIcon": "icon_author_xs.png",
+  "email": "sales@plentymarkets.com",
+  "phone": "+49 561 98 681 100",
+  "serviceProvider": "IngenicoZvt\\Providers\\IngenicoZvtServiceProvider"
 }
