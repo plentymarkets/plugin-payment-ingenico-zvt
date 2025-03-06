@@ -1,16 +1,15 @@
 ![plentymarkets Logo](http://www.plentymarkets.eu/layout/pm/images/logo/plentymarkets-logo.jpg)
 
-# Ingenico ZVT plugin for plentymarkets 7.x
+# Ingenico ZVT plugin for PlentyONE
 
-This is the official **Ingenico (ZVT)** plugin developed by plentymarkets. It integrates the payment method **Ingenico (ZVT)** to use an Ingenico payment terminal.
+This is the official **Ingenico (ZVT)** plugin developed by plentysystems AG. It integrates the payment method **Ingenico (ZVT)** to use an Ingenico payment terminal.
 
 ## Plugin documentation
 
-- Learn how to create your [first plentymarkets plugin](https://developers.plentymarkets.com/tutorials/helloworld)
-- Installing a [template](https://developers.plentymarkets.com/tutorials/design)
+- Learn how to create your [first PlentyONE plugin](https://developers.plentymarkets.com/tutorials/helloworld)
 - Developing a [payment plugin](https://developers.plentymarkets.com/tutorials/payment)
-- Overview of plentymarkets [plugin interfaces](https://developers.plentymarkets.com/dev-doc/basics#guide-interface)
-- The plentymarkets [REST API](https://developers.plentymarkets.com/rest-doc/introduction)
+- Overview of PlentyONE [plugin interfaces](https://developers.plentymarkets.com/dev-doc/basics#guide-interface)
+- The PlentyONE [REST API](https://developers.plentymarkets.com/rest-doc)
 
 ## Join our community
 
