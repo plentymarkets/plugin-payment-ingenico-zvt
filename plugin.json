@@ -9,10 +9,10 @@
   "license": "AGPL-3.0",
   "pluginIcon": "icon_plugin_xs.png",
   "price": 0.00,
-  "description": "Ingenico ZVT plugin for plentymarkets",
+  "description": "Ingenico ZVT plugin for PlentyONE",
   "shortDescription": {
-    "de": "Mit dem Plugin IngenicoZVT verbindest du ZVT-fähige Kartenterminals der Marke Ingenico mit deiner plentyPOS Kassen-Hardware.",
-    "en": "The plugin IngenicoZVT connects ZVT card terminals manufacturered by Ingenico with plentyPOS."
+    "de": "Mit dem Plugin IngenicoZVT verbindest du ZVT-fähige Kartenterminals der Marke Ingenico mit deiner POS Kassen-Hardware.",
+    "en": "The plugin IngenicoZVT connects ZVT card terminals manufacturered by Ingenico with POS."
   },
   "categories": [
     "3519"
@@ -37,11 +37,12 @@
     "V Pay",
     "Kartenterminal",
     "card terminal",
-    "card"
+    "card",
+    "PlentyONE"
   ],
   "author": "plentysystems AG",
   "authorIcon": "icon_author_xs.png",
-  "email": "sales@plentymarkets.com",
+  "email": "sales@plentyone.com",
   "phone": "+49 561 98 681 100",
   "serviceProvider": "IngenicoZvt\\Providers\\IngenicoZvtServiceProvider"
 }
