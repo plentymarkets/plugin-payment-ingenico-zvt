@@ -10,7 +10,7 @@ but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 GNU Affero General Public License for more details.
 
-"plentymarkets" and "PlentyONE" are registered trademarks of plentysystems AG.
+"PlentyONE" is a registered trademark of plentysystems AG.
 The licensing of the program under the AGPLv3 does not imply a
 trademark license. Therefore any rights, titles and interests in the
 above trademarks remain entirely with the trademark owners.
