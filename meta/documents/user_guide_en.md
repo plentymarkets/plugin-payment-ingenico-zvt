@@ -62,7 +62,7 @@ The connection between the payment terminal and the POS is established in the PO
 <b><i>Note:</i></b> To print receipts for card payments and Ingenico z reports on the POS receipt printer, you need to set the operating mode option <b>Block print</b> to <b>Ein</b> (<b>On</b>). This setting requires entering the device's technical support password.</td>
 </tr>
 <tr>
-<td><b>Include order items on merchant receipt<b></td>
+<td><b>Include order items on merchant receipt</b></td>
 <td>Activate to print items of the order on the seller receipt.<br /> <b><i>Tip:</i></b> This setting is only available if the option <b>Print terminal receipts on terminal</b> is not activated.</td>
 </tr>
 <tr>
@@ -94,4 +94,4 @@ Z reports are called z totals on your Ingenico device. A z total transmits all c
 
 ## License
 
-This project is licensed under the GNU AFFERO GENERAL PUBLIC LICENSE. – find further information in the [LICENSE.md](https://github.com/plentymarkets/plugin-etsy/blob/master/LICENSE.md).
+This project is licensed under the GNU AFFERO GENERAL PUBLIC LICENSE. – find further information in the [LICENSE.md](https://github.com/plentymarkets/plugin-payment-ingenico-zvt/blob/master/LICENSE.md).

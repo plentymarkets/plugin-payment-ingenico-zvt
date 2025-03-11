@@ -97,4 +97,4 @@ Der Tagesabschluss heißt bei Ingenico Kassenschnitt. Mit dem ZVT-Kassenschnitt 
 
 ## Lizenz
 
-Das gesamte Projekt unterliegt der GNU AFFERO GENERAL PUBLIC LICENSE – weitere Informationen findest du in der [LICENSE.md](https://github.com/plentymarkets/plugin-etsy/blob/master/LICENSE.md).
+Das gesamte Projekt unterliegt der GNU AFFERO GENERAL PUBLIC LICENSE – weitere Informationen findest du in der [LICENSE.md](https://github.com/plentymarkets/plugin-payment-ingenico-zvt/blob/master/LICENSE.md).

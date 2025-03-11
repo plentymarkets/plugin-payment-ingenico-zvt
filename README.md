@@ -1,8 +1,8 @@
-![plentymarkets Logo](http://www.plentymarkets.eu/layout/pm/images/logo/plentymarkets-logo.jpg)
+![PlentyONE Logo](https://plentyone.com/hubfs/PlentyONE/Logo/202502_PlentyONE_Logo_White_BlueBG_445x105.png)
 
 # Ingenico ZVT plugin for PlentyONE
 
-This is the official **Ingenico (ZVT)** plugin developed by plentysystems AG. It integrates the payment method **Ingenico (ZVT)** to use an Ingenico payment terminal.
+This is the official **Ingenico (ZVT)** plugin developed by PlentyONE GmbH. It integrates the payment method **Ingenico (ZVT)** to use an Ingenico payment terminal.
 
 ## Plugin documentation
 
