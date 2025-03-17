@@ -1,5 +1,10 @@
 # Release Notes for IngenicoZVT
 
+## v.1.0.6
+### Changed
+- User guide adjustments
+- author icon updated
+
 ## v.1.0.5
 ### Changed
 - User guide adjustments

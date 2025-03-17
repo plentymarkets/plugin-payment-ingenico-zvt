@@ -1,5 +1,10 @@
 # Release Notes für IngenicoZVT
 
+## v.1.0.6
+### Geändert
+- Anpassungen im User Guide
+- Logo aktualisiert
+
 ## v.1.0.5
 ### Geändert
 - Anpassungen im User Guide
